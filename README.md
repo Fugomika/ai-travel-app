@@ -20,6 +20,7 @@ cp .env.example .env
 php artisan key:generate
 
 # Silahkan ikuti langkah migrasi, atau mengimpor database tertera dalam project folder
+# Sesuaikan nama database yang dipakai dengan DB_DATABASE di .env
 # Jika menggunakan database yang tertera, bisa langsung lompat ke bagian "Jalankan server"
 
 # Migrasi database

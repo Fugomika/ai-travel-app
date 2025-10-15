@@ -19,6 +19,9 @@ composer install
 cp .env.example .env
 php artisan key:generate
 
+# Silahkan ikuti langkah migrasi, atau mengimpor database tertera dalam project folder
+# Jika menggunakan database yang tertera, bisa langsung lompat ke bagian "Jalankan server"
+
 # Migrasi database
 php artisan migrate --force
 

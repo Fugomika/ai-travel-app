@@ -1,6 +1,7 @@
 ## 🚀 Instalasi AI Travel App
 
 ### Prasyarat
+- Git
 - PHP ≥ 8.2  
 - Composer  
 - Node.js & npm  

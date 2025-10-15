@@ -1,3 +1,35 @@
+## 🚀 Instalasi AI Travel App
+
+### Prasyarat
+- PHP ≥ 8.2  
+- Composer  
+- Node.js & npm  
+- Database (MySQL atau SQLite)
+
+### Langkah Instalasi
+```bash
+# Clone repositori
+git clone https://github.com/Fugomika/ai-travel-app.git
+cd ai-travel-app
+
+# Install dependensi backend
+composer install
+
+# Copy file konfigurasi dan generate key
+cp .env.example .env
+php artisan key:generate
+
+# Migrasi database
+php artisan migrate --force
+
+# Install dependensi frontend
+npm install
+npm run build
+
+# Jalankan server
+php artisan serve
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
